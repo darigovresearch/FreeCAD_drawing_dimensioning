@@ -39,7 +39,7 @@ class Form_pagePreferences(QtGui.QWidget):
         hbox.addWidget(addTemplate_button )
         vbox2.addLayout(hbox)
         self.addTemplate_button = addTemplate_button
-        vbox2.addWidget( QtGui.QLabel('*FreeCAD needs to be restared'))
+        vbox2.addWidget( QtGui.QLabel('*FreeCAD needs to be restarted'))
         vbox2.addWidget( QtGui.QLabel('for changes to take effect'))
         GroupBox_templates.setLayout(vbox2)
         vbox.addWidget(GroupBox_templates)
